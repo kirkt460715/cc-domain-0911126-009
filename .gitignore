@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+vault-data/
+
+.env
+.env.*
+*.key
+*.pem
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+vault-data/
+.DS_Store

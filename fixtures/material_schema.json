@@ -1,0 +1,33 @@
+{
+  "id": "material",
+  "version": 1,
+  "primary_key": [
+    "id"
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "text"
+    },
+    {
+      "name": "batch",
+      "type": "text"
+    },
+    {
+      "name": "temperature",
+      "type": "decimal"
+    },
+    {
+      "name": "pressure",
+      "type": "decimal"
+    },
+    {
+      "name": "strength",
+      "type": "decimal"
+    },
+    {
+      "name": "center_repeat",
+      "type": "boolean"
+    }
+  ]
+}
