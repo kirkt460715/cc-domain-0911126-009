@@ -1,0 +1,9 @@
+{"batch": "batch-0", "center_repeat": false, "id": "one-001", "pressure": "1", "strength": "77", "temperature": "100"}
+{"batch": "batch-0", "center_repeat": false, "id": "one-002", "pressure": "3", "strength": "80", "temperature": "100"}
+{"batch": "batch-0", "center_repeat": false, "id": "one-003", "pressure": "5", "strength": "73", "temperature": "100"}
+{"batch": "batch-0", "center_repeat": false, "id": "one-004", "pressure": "1", "strength": "84", "temperature": "150"}
+{"batch": "batch-0", "center_repeat": true, "id": "one-005", "pressure": "3", "strength": "90", "temperature": "150"}
+{"batch": "batch-0", "center_repeat": false, "id": "one-006", "pressure": "5", "strength": "86", "temperature": "150"}
+{"batch": "batch-0", "center_repeat": false, "id": "one-007", "pressure": "1", "strength": "75", "temperature": "200"}
+{"batch": "batch-0", "center_repeat": false, "id": "one-008", "pressure": "3", "strength": "84", "temperature": "200"}
+{"batch": "batch-0", "center_repeat": false, "id": "one-009", "pressure": "5", "strength": "83", "temperature": "200"}

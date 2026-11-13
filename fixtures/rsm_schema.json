@@ -1,0 +1,14 @@
+{
+  "id": "response_surface",
+  "version": 1,
+  "primary_key": ["id"],
+  "fields": [
+    {"name": "id", "type": "text"},
+    {"name": "batch", "type": "text"},
+    {"name": "temperature", "type": "decimal"},
+    {"name": "pressure", "type": "decimal"},
+    {"name": "ratio", "type": "decimal", "required": false, "nullable": true},
+    {"name": "strength", "type": "decimal"},
+    {"name": "center_repeat", "type": "boolean", "required": false, "nullable": true}
+  ]
+}

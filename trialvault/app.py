@@ -94,6 +94,22 @@ def dispatch(vault, request):
         return vault.queries.sample(**options)
     if action == "lookup":
         return vault.queries.lookup(**options)
+    if action == "study_register":
+        return vault.studies.register(**options)
+    if action == "study_evaluate":
+        return vault.studies.evaluate(options["study_id"])
+    if action == "study":
+        return vault.studies.result(options["study_id"])
+    if action == "study_status":
+        return vault.studies.status(options["study_id"])
+    if action == "studies":
+        return vault.studies.list()
+    if action == "study_export":
+        return vault.studies.export(
+            options["study_id"], options.get("export_id")
+        )
+    if action == "study_export_verify":
+        return vault.studies.verify_export(options["export_id"])
     if action == "storage_usage":
         return vault.queries.storage_usage()
     reject("input", "unknown action", action=action)
@@ -102,7 +118,9 @@ def dispatch(vault, request):
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="trialvault")
     parser.add_argument("--root", default="vault-data")
-    parser.add_argument("command", choices=["run", "demo", "check", "verify"])
+    parser.add_argument(
+        "command", choices=["run", "demo", "study", "check", "verify"]
+    )
     parser.add_argument("file", nargs="?")
     args = parser.parse_args(argv)
     try:
@@ -110,6 +128,10 @@ def main(argv=None):
             from .demonstration import demonstrate
 
             result = demonstrate()
+        elif args.command == "study":
+            from .demonstration import demonstrate_response_surface
+
+            result = demonstrate_response_surface()
         elif args.command == "verify":
             result = verify_directory(args.file)
         else:

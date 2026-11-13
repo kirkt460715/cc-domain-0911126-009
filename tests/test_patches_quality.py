@@ -445,6 +445,17 @@ class MigrationRetentionTests(unittest.TestCase):
         self.assertEqual(len(self.vault.registry.list_versions("data")), 2)
 
 
+class ResponseSurfaceDemoTests(unittest.TestCase):
+    def test_response_surface_demo_exports_study(self):
+        from trialvault.demonstration import demonstrate_response_surface
+
+        result = demonstrate_response_surface()
+        self.assertEqual(result["ingestion"]["rows"], 27)
+        self.assertEqual(result["study"]["selected_model"], "quadratic")
+        self.assertTrue(result["study"]["convex_hull"])
+        self.assertEqual(len(result["export"]), 64)
+
+
 class QueryTests(unittest.TestCase):
     def test_catalog_sampling_lookup_and_deduplication(self):
         with tempfile.TemporaryDirectory() as directory:

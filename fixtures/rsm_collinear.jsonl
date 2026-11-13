@@ -1,0 +1,15 @@
+{"batch": "batch-0", "center_repeat": false, "id": "col-001", "pressure": "1", "strength": "73.9", "temperature": "100"}
+{"batch": "batch-1", "center_repeat": false, "id": "col-002", "pressure": "1", "strength": "74", "temperature": "100"}
+{"batch": "batch-2", "center_repeat": false, "id": "col-003", "pressure": "1", "strength": "74.1", "temperature": "100"}
+{"batch": "batch-0", "center_repeat": false, "id": "col-004", "pressure": "2", "strength": "78.4", "temperature": "125"}
+{"batch": "batch-1", "center_repeat": false, "id": "col-005", "pressure": "2", "strength": "78.5", "temperature": "125"}
+{"batch": "batch-2", "center_repeat": false, "id": "col-006", "pressure": "2", "strength": "78.6", "temperature": "125"}
+{"batch": "batch-0", "center_repeat": true, "id": "col-007", "pressure": "3", "strength": "79.9", "temperature": "150"}
+{"batch": "batch-1", "center_repeat": true, "id": "col-008", "pressure": "3", "strength": "80", "temperature": "150"}
+{"batch": "batch-2", "center_repeat": true, "id": "col-009", "pressure": "3", "strength": "80.1", "temperature": "150"}
+{"batch": "batch-0", "center_repeat": false, "id": "col-010", "pressure": "4", "strength": "78.4", "temperature": "175"}
+{"batch": "batch-1", "center_repeat": false, "id": "col-011", "pressure": "4", "strength": "78.5", "temperature": "175"}
+{"batch": "batch-2", "center_repeat": false, "id": "col-012", "pressure": "4", "strength": "78.6", "temperature": "175"}
+{"batch": "batch-0", "center_repeat": false, "id": "col-013", "pressure": "5", "strength": "73.9", "temperature": "200"}
+{"batch": "batch-1", "center_repeat": false, "id": "col-014", "pressure": "5", "strength": "74", "temperature": "200"}
+{"batch": "batch-2", "center_repeat": false, "id": "col-015", "pressure": "5", "strength": "74.1", "temperature": "200"}
